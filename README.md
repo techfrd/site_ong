@@ -1,7 +1,6 @@
 # A4 ONG | Landing Page
 ### Visão Geral do Projeto
 Esta é a Landing Page da A4 ONG, criada como projeto de extensão do curso de Ciência da Computação, com o objetivo de facilitar a adoção responsável de animais e impulsionar a captação de doações para a manutenção da ONG em Campina Grande - PB.
-![img](https://github.com/techfrd/site_ong/img/image.png)
 
 #### Destaques:
 Foco na Ação: Botões principais para Adoção (WhatsApp) e Doação (Seção de PIX/Ajuda).
