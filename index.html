@@ -1,11 +1,182 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>a4 ONG</title>
 </head>
 <body>
-    
+    <!-- Header-->
+    <header class="header">
+        <div class="container">
+            <img src="img/logo.png" class="logo" alt="logotipo da ONG">
+
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#sobre" class="active">sobre a ONG</a></li>
+                    <li><a href="#adocao">adoção</a></li>
+                    <li><a href="#doacoes">doações</a></li>
+                    <!-- <li><a href="#eventos">eventos</a></li> -->
+                    <li><a href="#faq">FAQ</a></li>
+                </ul>
+            </nav>
+
+            <a href="https://www.instagram.com/a4.ong/" target="_blank" class="btn-yellow btn-contact">contate-nos<i class="fas fa-arrow-right"></i></a>
+        </div>
+    </header>
+
+    <!--  MAIN  -->
+
+    <main>
+        <!-- Seção principal -->
+        <section id="initial">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <h1>Mude um destino. Adote um <span>amigo</span></h1>
+                    <p class="subtitle">Adote, doe ou compartilhe — juntos podemos mudar o destino dos animais abandonados de Campina Grande</p>
+                    <div class="hero-buttons">
+                        <a href="https://wa.me/5583999728027?text=Ol%C3%A1%2C%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20processo%20de%20ado%C3%A7%C3%A3o." target="_blank" class="btn-blue">quero adotar</a>
+                        <a href="#doacoes" class="btn-yellow">fazer uma doação</a>
+                    </div>
+                </div>
+                
+            
+                <div class="hero-image-container">
+                    <!-- <div class="hero-bg-shape"></div> -->
+                    <img src="img/foto_cachorro.png" alt="" class="hero-principal-img">
+                    <img src="img/foto_mulher_abracando.png" alt="" class="hero-secondary-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção SObre a ONG -->
+
+        <section id="sobre">
+            <div class="container">
+                <h2>sobre a ONG</h2>
+                <p>A a4 é uma organização sem fins lucrativos que atua em Campina Grande - PB, cuidando e promovendo a adoção de cães e gatos abandonados. </p>
+                <p>Nosso trabalho é mantido por voluntários e doações da comunidade, que acreditam em um futuro melhor para cada vida animal.</p>
+                
+                <div class="sobre-grid">
+                    <div class="sobre-card">
+                        <h3>Missão</h3>
+                        <p>Reabilitar e encontrar lares amoros para animais em situação de risco, promovendo a posse responsável.</p>
+                    </div>
+                    <div class="sobre-card">
+                        <h3>Visão</h3>
+                        <p>Ser referência no bem-estar animal em Campina Grande, sonhando com um futuro onde nenhum animal sofra abandono.</p>
+                    </div>
+                    <div class="sobre-card">
+                        <h3>Valores</h3>
+                        <p>Amor, respeito à vida, Transparência, Compromentimento, Educação e Cuidado em cada ação que realizamos.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Adoption -->
+         <section id="adocao">
+            <div class="container">
+                <h2>🐶 A importância da adoção</h2>
+                <p>Todos os dias, milhares de animais são abandonados nas ruas, sofrendo com fome e maus-tratos.</p>
+                <p>Ao adotar, você salva uma vida e ainda ganha um companheiro fiel. Adotar é um gesto de amor que muda dois destinos: o do animal e o seu. ❤️</p>
+            
+                <div class="btn-container">
+                    <a href="https://wa.me/5583999728027?text=Ol%C3%A1%2C%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20processo%20de%20ado%C3%A7%C3%A3o." target="_blank" class="btn btn-puple">Entre em contato para adotar</a>
+                </div>
+            </div>
+         </section>
+
+         <!-- Doação -->
+         <section id="doacoes">
+            <div class="container">
+                <h2>Faça a diferença</h2>
+                <div class="doacoes-content">
+                    <div class="doacoes-texto">
+                        <p>Sua doação é essencial para manter nossa operação funcionando, comprar ração, remédios e custear atendimentos veterinários.</p>
+                        <p>Contribua com qualquer valor - cada ajuda transforma vidas.</p>
+                        <img src="img/cachorro_sendo_cuidado.png" alt="Cachorro sendo cuidado">
+                    </div>
+                    <div class="pix-container">
+                        <h3>Ajude via PIX</h3>
+                        <p>Aponte sua câmera para o QR Code</p>
+                        <img src="img/qr_code.png" alt="QR code PIX para doação" class="pix-qr-img">
+                        <p>Ou use nossa chave:</p>
+                        <p class="chave-pix" id="chavePixTexto">CNPJ - 06.262.522.0001-48</p>
+                        <a href="#" class="btn btn-blue" onclick="copiarChave(event)" id="btnCopiar">Copiar chave pix</a>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+         <!-- Eventos
+          <section id="eventos">
+            <div class="container">
+                <h2>Nossos Próximos Eventos</h2>
+                <p>Acompanhe as campanhas, feiras de adoção e ações educativas realizadas pela ONG</p>
+                <div class="eventos-grid">
+                    <div class="evento-card">
+                        <img src="img/adoção.png" alt="">
+                        <div class="evento-texto">
+                            <h3>Feira de adoção - Ideal supermecado</h3>
+                            <p class="evento-date"><strong>Data:</strong>Próximo sábado, 10h às 16h</p>
+                            <p>Estaremos no Ideal supermecado com cães e gatos castrados e vacinados esperando por um lar.</p>
+                            <a href="#">Saiba mais &rarr;</a>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div style="text-align: center; margin-top: 3rem;">
+                    <a href="eventos.html" class="btn btn-yellow">Ver todos os eventos</a>
+                </div>
+            </div>
+          </section> -->
+
+          <!-- FAQ -->
+
+          <section id="faq">
+            <div class="container">
+                <h2>Perguntas Frequentes 🐾</h2>
+                <div class="faq-container">
+                    <details class="faq-item">
+                        <summary>Como posso adotar um animal?</summary>
+                        <p>Basta entrar em contato conosco pelo WhatsApp ou visitar nossos eventos de adoção. A equipe fará uma breve entrevista para garantir que o animal irá para um lar seguro.</p>
+                    </details>
+                    <details class="faq-item">
+                        <summary>Há algum custo para adoção?</summary>
+                        <p>Não cobramos taxas, mas pedimos colaboração opcional para ajudar com vacinas e cuidados básicos.</p>
+                    </details>
+                    <details class="faq-item">
+                        <summary>Posso visitar o abrigo antes de adotar?</summary>
+                        <p>Sim! Agende uma visita e venha conhecer nossos animais pessoalmente.</p>
+                    </details>
+                    <details class="faq-item">
+                        <summary>Como posso ajudar sem adotar?</summary>
+                        <p>Você pode fazer doações, apadrinhar um animal, divulgar nosso trabalho ou se tornar voluntário.</p>
+                    </details>
+                    <details class="faq-item">
+                        <summary>As doações são seguras?</summary>
+                        <p>Sim. Todas as doações vão diretamente para a conta da ONG e são usadas exclusivamente para o cuidado dos animais.</p>
+                    </details>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2025 Copyright: A4 ONG Amigos de Patas.</p>
+            <p>Desenvolvido com ❤️ por @fernando @joaoRafael @demetrio</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
